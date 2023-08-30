@@ -60,9 +60,9 @@ body {
     margin: 0;
     padding: 1rem;
     background-image: url('images/pattern-background-mobile.svg');
-    background-position: center;
     background-repeat: no-repeat;
-        background-color: var(--clr--pale-blue);
+    background-position: center;
+    background-color: var(--clr--pale-blue);
     font-family: var(--ff--red-hat-display);
     min-height: 100vh;
     display: flex;
@@ -71,6 +71,13 @@ body {
     color: var(--clr--desaturated-blue);
     text-align: center;
     line-height: 1.5;
+}
+
+@media (min-width: 32rem) {
+    body {
+        background-image: url('images/pattern-background-desktop.svg');
+        background-position: top;
+    }
 }
 
 .card {
