@@ -148,7 +148,7 @@ body {
 
 .cancel:is(:hover,:focus) {
     color: var(--clr--dark-blue);
-    transition: .2s;
+    transition: .5s;
 }
 
 
